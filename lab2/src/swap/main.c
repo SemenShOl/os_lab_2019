@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 #include "swap.h"
-
 int main()
 {
 	char ch1 = 'a';

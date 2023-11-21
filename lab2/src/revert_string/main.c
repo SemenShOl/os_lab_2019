@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "revert_string.h"
+// #include "revert_string.h"
+#include "lib.h"
 
 int main(int argc, char *argv[])
 {
@@ -11,7 +12,6 @@ int main(int argc, char *argv[])
 		printf("Usage: %s string_to_revert\n", argv[0]);
 		return -1;
 	}
-
 	char *reverted_str = malloc(sizeof(char) * (strlen(argv[1]) + 1));
 	strcpy(reverted_str, argv[1]);
 
