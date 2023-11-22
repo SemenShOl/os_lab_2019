@@ -125,7 +125,7 @@ int main(int argc, char **argv) {
         // child process
 
         // parallel somehow
-struct MinMax min_max;
+      struct MinMax min_max;
         // parallel somehow
 
         //L
