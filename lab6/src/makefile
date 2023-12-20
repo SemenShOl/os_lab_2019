@@ -17,4 +17,4 @@ clean:
 start_server: 
 	./server --port 8000 --tnum 2 & ./server --port 8001 --tnum 2 & ./server --port 8002 --tnum 2
 start_client: 
-	./client --k 15 --mod 1000  --servers ./servers.txt
+	./a.out --k 15 --mod 1000  --servers ./servers.txt
