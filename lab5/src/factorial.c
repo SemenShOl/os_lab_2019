@@ -116,10 +116,10 @@ int main(int argc, char* argv[]) {
   }
 
   // Using mutex
-  pthread_mutex_lock(&mutex);
+//   pthread_mutex_lock(&mutex);
   long long final_result = main_result % mod;
-  pthread_mutex_unlock(&mutex);
-    printf("factorial %d = %d \n", k, main_result);
+//   pthread_mutex_unlock(&mutex);
+  printf("factorial %d = %d \n", k, main_result);
 
   printf("%d mod %d = %lld\n", main_result, mod, final_result);
 
